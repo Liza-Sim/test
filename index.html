@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header container">
+        <div class="header-logo">
+            <a href="./index.html"><img src="./build/img/logo.png" alt="logo" width="208" height="67"></a>
+        </div>
+        <ul class="header-menu">
+            <li><a href="#ingredientNavig" class="header-menu__link ">ingredient</a></li>
+            <li><a href="#storyNavig" class="header-menu__link ">story</a></li>
+            <li><a href="#burgersNavig" class="header-menu__link ">burgers</a></li>
+            <li><a href="#locationNavig" class="header-menu__link ">location</a></li>
+        </ul>
+        <button type="button" class="header-btn button">Order now</button>
+    </header>
+    <main class="main">
+        <div class="main-fon">
+            <div class="container mainPage">
+                <div class="mainPage-text">
+                    <h1 class="mainPage-text__title">Burger Factory</h1>
+                    <p class="middle-text">Your dreamed burger close to your locations!</p>
+                    <a href="#ingredientNavig" class="button mainPage-text__btn">Discover the ingredients</a>
+                </div>
+                <div class="mainPage-img">
+                    <img src="./build/img/burgerBig.png" alt="burger" class="mainPage-img__burger" >
+                </div>
+            </div>   
+        </div>
+        <div class="ingredients container" id="ingredientNavig">
+            <h2 class="ingredients-title big-text">Ingredients</h2>
+            <p class="ingredients-text middle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis id arcu vel maximus.</p>
+            <div class="ingredients-slider" id="ingredients-slider"></div>
+            <p class="ingredients-comment small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut nec placerat purus. Fusce vitae
+            faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam. Proin quis
+            dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat, eu lobortis
+            nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis. Cras elit lorem,
+            mollis ut feugiat ac, ultricies eu dolor.</p>
+        </div>
+        <div class="storyPage container" id="storyNavig">
+            <div class="storyPage-text">
+                <h2 class="big-text">The story</h2>
+                <p class="middle-text storyPage-text__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis id arcu vel maximus.</p>
+                <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut nec placerat purus. Fusce vitae
+                faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam. Proin quis
+                dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat, eu lobortis
+                nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis. Cras elit lorem,
+                mollis ut feugiat ac, ultricies eu dolor.</p>
+            </div>
+            <div class="storyPage-img">
+                <img src="./build/img/storyBurger.png" alt="burger">
+            </div>
+        </div>
+        <div class="burgers container" id="burgersNavig">
+            <h2 class="big-text">Burgers</h2>
+            <div class="burgers-list" id="burgersList"></div>
+            <button type="button" class="button burgers-btn">Order now</button>
+        </div>
+        <div class="location container" id="locationNavig">
+            <h2 class="location-title big-text">Location</h2>
+            <div class="location-inform">
+                <p class="middle-text">Burger Factory</p>
+                <p>Pl. de la Riponne 10</p>
+                <p>1005 Lausanne</p>
+                <a href="tel:0218000000">021 800 00 00</a>
+            </div>
+            <div class="location-img">
+                <img src="./build/img/map.png" alt="map" class="location-img__map">
+                <img src="./build/img/burger1.png" alt="" class="location-img__mini" width="36" height="33">
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inform">
+            <a href="./index.html"><img src="./build/img/logo.png" alt="logo" class="footer-logo"></a>
+            <div class="footer-text">
+                <p class="footer-text__title">Burger Factory</p>
+                <p>Pl. de la Riponne 10</p>
+                <p>1005 Lausanne</p>
+                <p>021 800 00 00</p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="./build/result.js"></script>
+</body>

@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+}
+.body {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 400;
+  min-width: 375px;
+  max-width: 1920px;
+  background: #ffffff;
+  color: #2a2a2a;
+}
+.container {
+  max-width: 1352px;
+  min-width: 375px;
+  margin: 0 auto;
+}
+.button {
+  border-radius: 10px;
+  padding: 7px 30px 6px 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppins", "Arial", sans-serif;
+  color: #2a2a2a;
+  border-style: none;
+}
+.big-text {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 95px;
+}
+.middle-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+}
+.small-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0px;
+}
+.header-logo {
+  margin: 32px 0 19px 0;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 92px;
+  padding-inline-start: 0;
+}
+.header-menu li {
+  margin-right: 65px;
+}
+.header-menu__link {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.header-btn {
+  margin-left: auto;
+  background: #00b3fa;
+}
+.header-btn:hover {
+  background-color: #008bf6;
+}
+.main {
+  text-align: center;
+  color: #2a2a2a;
+}
+.main-fon {
+  background: transparent url("../img/Tracé.svg") 0% 0% no-repeat padding-box;
+  height: 604px;
+}
+.mainPage {
+  display: flex;
+}
+.mainPage-text {
+  margin-top: 134px;
+  text-align: left;
+  letter-spacing: 0px;
+}
+.mainPage-text__title {
+  font-weight: 900;
+  font-size: 82px;
+  line-height: 122px;
+}
+.mainPage-text p {
+  margin: 12px 0 18px 0;
+}
+.mainPage-text__btn {
+  background: #f6e224;
+  padding: 6px 23px 6px 23px;
+  text-decoration: none;
+}
+.mainPage-text__btn:hover {
+  background-color: #ee9c10;
+}
+.mainPage-img {
+  margin-left: auto;
+  padding-top: 49px;
+}
+.ingredients {
+  margin-top: 235px;
+}
+
+.ingredients-text {
+  width: 690px;
+  margin: 14px auto 50px;
+}
+.ingredients-comment {
+  width: 65%;
+  margin: 45px auto 145px;
+}
+.ingredients-slider {
+  display: flex;
+  padding-left: 11%;
+  overflow: hidden;
+}
+
+.ingredients-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 229px;
+  height: 195px;
+  margin: 3px 52px 3px 0;
+}
+.ingredients-cardDiv {
+  width: 23%;
+}
+.ingredients-cardDiv:last-child {
+  background: transparent linear-gradient(270deg, #ffffff 0%, #ffffff00 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 0.5;
+}
+
+.ingredients-card__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: auto;
+}
+.storyPage {
+  display: flex;
+  margin-bottom: 138px;
+}
+.storyPage-text {
+  width: 50%;
+  text-align: start;
+}
+.storyPage-text__p {
+  margin: 13px 0 50px;
+}
+.storyPage-img {
+  border-radius: 30px;
+  margin-left: auto;
+}
+.burgers-list {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.burgers-card {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+.burgers-btn {
+  background: #00b3fa;
+  margin: 50px auto 142px;
+}
+.burgers-btn:hover {
+  background-color: #008bf6;
+}
+.burgers-card__title {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+}
+.burgers-card__img {
+  margin: 61px 25% 17px;
+}
+.burgers-card__btn {
+  margin: 20px 20px 20px auto;
+  text-decoration: none;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #008bf6;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.burgers-card__details {
+  text-align: start;
+  margin: 20px;
+}
+.burgers-card__details p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.burgers-card__details-hidden {
+  display: none;
+}
+.burgers-card__details-title {
+  font-weight: 700;
+}
+
+.location-title {
+  margin-bottom: 28px;
+}
+.location-inform {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.location-inform p {
+  margin-right: 30px;
+}
+.location-inform a {
+  color: #2a2a2a;
+  text-decoration: none;
+}
+.location-img {
+  position: relative;
+}
+.location-img__map {
+  border-radius: 30px;
+  margin-bottom: 143px;
+  /* position: relative; */
+}
+.location-img__mini {
+  content: "";
+  position: absolute;
+  left: 43%;
+  top: 29%;
+  z-index: 1;
+  padding: 9px 7px 8px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50%;
+}
+.footer {
+  background: #f5f5f5;
+}
+.footer-inform {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  margin: 29px 0;
+}
+.footer-text {
+  margin-left: auto;
+  text-align: right;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.footer-text__title {
+  font-weight: 700;
+}
+.footer-text p {
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 1280px) {
+  .mainPage-img__burger {
+    object-fit: contain;
+    height: 90%;
+  }
+  .header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .header-logo {
+    margin: 10px 0;
+  }
+  .header-btn {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .header-menu {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-menu li {
+    margin-right: 45px;
+  }
+  .mainPage-img {
+    width: 50%;
+  }
+  .mainPage-img__burger {
+    object-fit: cover;
+    width: 100%;
+  }
+  .ingredients-cardDiv {
+    width: 30%;
+  }
+  .ingredients-card {
+    width: 95%;
+  }
+  .storyPage {
+    display: flex;
+    flex-direction: column;
+  }
+  .storyPage-img {
+    width: 60%;
+    margin: 10px auto;
+  }
+  .storyPage-img img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .storyPage-text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainPage {
+    width: 100%;
+  }
+  .mainPage-text {
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 100px;
+  }
+  .mainPage-text__title {
+    font-size: 70px;
+  }
+  /* .mainPage-img {
+    width: 50%;
+  }
+  .mainPage-img__burger {
+    object-fit: cover;
+    width: 100%;
+  } */
+  .ingredients {
+    margin-top: 110px;
+  }
+  .ingredients-text {
+    width: 90%;
+  }
+  .ingredients-slider {
+    padding-left: 0;
+  }
+  .ingredients-cardDiv {
+    width: 23%;
+  }
+  .ingredients-card__img {
+    height: 64%;
+  }
+  .ingredients-comment {
+    width: 90%;
+  }
+  .location-inform {
+    font-size: 19px;
+  }
+  .location-img__map {
+    width: 100%;
+  }
+  .location-img__mini {
+    left: 40%;
+    top: 28%;
+  }
+  .burgers-card__title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .header-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+  .header-menu li {
+    margin: 0 auto;
+  }
+  .mainPage {
+    flex-direction: column;
+  }
+  .mainPage-text {
+    width: 100%;
+  }
+  .mainPage-img {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .mainPage-text {
+    padding-top: 30px;
+  }
+  .ingredients {
+    margin-top: 50px;
+  }
+  .mainPage-text {
+    padding: 0;
+  }
+  .mainPage-text__title {
+    line-height: 90px;
+  }
+  .big-text {
+    font-size: 54px;
+  }
+  .ingredients-card {
+    height: 80px;
+  }
+  .burgers-card__title {
+    font-size: 12px;
+  }
+  .ingredients-card__img {
+    height: 65%;
+  }
+  .ingredients-comment {
+    margin-bottom: 50px;
+  }
+  .storyPage {
+    margin-bottom: 30px;
+  }
+  .burgers-list {
+    margin: 0;
+  }
+  .burgers-btn {
+    margin-bottom: 50px;
+  }
+  .location-inform {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location-inform p {
+    margin: 0;
+  }
+  .location-img__mini {
+    left: 38%;
+    top: 23%;
+  }
+}
